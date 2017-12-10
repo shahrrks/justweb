@@ -3,31 +3,102 @@
     <head>
         <title>Shah Rrks</title>
         <link href="www.google.com.np" rel="stylesheet">
+        <meta charset="utf-8">
+
+        <style>
+        	body{
+        		background-image: url("http://bgfons.com/uploads/lines/lines_texture1100.jpg");
+
+        	}
+        	@font-face {
+			   font-family: myFirstFont;
+			   src: url(sansation_light.woff);
+			}
+
+			h2,h1:hover {
+				width:1000px;
+			}
+
+			
+        	table,ul,p{
+        		color:white;
+        		font-size: 18px;
+        		font-family: Comic Sans MS;
+        	}
+
+        	h1{
+        		color:Yellow;
+        		font-size: 36px;
+        		text-align:left;
+        		font-family:Pacifico;
+        		background: green;
+        		text-decoration: overline;
+        		letter-spacing: 4px;
+        		font-variant: large;
+        		text-shadow: 2px 2px blue;
+        		width : 300px;
+        		height: 100px;
+        		transition: width 5s;
+        	}
+
+        	h2{
+        		color:yellow;
+        		font-size: 20px;
+        		font-family:Pacifico ;
+        		background: green;
+        		letter-spacing: 2px;
+        		text-shadow: 2px 2px blue;
+        		width : 300px;
+        		height: 50px;
+        		transition: width 5s;
+        	}
+        	img {
+        		border-radius:60%;
+        		align:center;
+        	}
+
+        	.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+        	ul.circle{list-style-type: circle;
+
+
+
+    	</style>
     </head>
     
     <body>
         <!-- header start -->
         <div id="header" class="section">
-            <img alt="myPhoto" class="img-circle" src="https://i.ytimg.com/vi/Kx7y_ua1V38/maxresdefault_live.jpg" width =50% >
-            <p> Shah Rrks </p>
+            <img alt="myPhoto" class="img-circle" align="center" src="https://i.ytimg.com/vi/Kx7y_ua1V38/maxresdefault_live.jpg" width =50% >
+            <p> <button type="button" onclick="alert('Hey!! Wie gehts')">Shah Rrks</button> </p>
         </div>
         <!-- header end -->
         
         <!-- About Me section start -->
         <div class="section">
             <h1><span>About Me</span></h1>
+            
             <p>
                 Hey! I'm <strong> Ravi </strong>. I am learning Coding. Coding has changed my world. It's not just about apps. Learning to code gave me <i>problem-solving skills</i> 
                 <br>
                 I wake up at <time>07:00</time> every morning. 
+           
 
-                <strong><i>Ich kann auch deutsch.</i> </strong> Wie ist das Wetter heute ?. <details>
-                	<h2> Recipe: </h2>
-                	<ul>
-                		<li><mark> Preperation time : <time datetime = "PT30M"> 30 Minuten </time> </mark></li>
-                	</ul>
+                <strong><i>Ich kann auch deutsch.</i> </strong> Wie ist das Wetter heute ?. <details>  </p>
+           
                 <summary><h2>My favorite quotes</h2></summary>
                 <ul>
+                	
 <li>If you are not doing what you love, you are wasting your time. </li>
 <li>Growth is painful. Change is painful, But nothing is as painful as staying stuck somewhere you don't belong. (Mandy Hale)</li>
 <li>The trouble with not having a goal is that you can spend your life running up and down the field and never score.</li>
@@ -62,18 +133,20 @@
 <li>Success belongs to those who believe in their dreams</li>
 <li>What you do today is important because you are exchanging a day of your life for it</li>
 <li><mark>Let not thy winged days be spent in vain. When once gone no gold can buy them back again.</mark></li>
+<li>"Declare variables, not war"</li>
+</p>
 </ul></details>
             
-            <p class="quote">"Declare variables, not war"</p>
+            
         </div>
         <!-- About Me section end -->
         
         <!-- My Schedule section start -->
         <div class="section">
-            <h3>My Coding Schedule</h3>
-            <table>
+            <h2>My Coding Schedule</h2>
+            <table border = 8>
                 <tr>
-                    <th>Day</th>
+                    <th>Tag</th>
                     <th>Sonntag</th>
                     <th>Montag</th>
                     <th>Dienstag</th>
@@ -147,8 +220,11 @@
          <!-- Media section start -->
         <div class="section">
             <h1><span>My Media</span></h1>
-            <iframe height="400" width="600" src="https://www.youtube.com/embed/wk1CUI9mCI0" alt ="Youtube Video"  allowfullscreen frameborder="0"></iframe>
+            <iframe height="400" width="600" src="https://www.youtube.com/embed/wk1CUI9mCI0" alt ="Youtube Video" ></iframe></div>
+        <div class="section">
+        	<iframe height ="400" width="600" src="tps:/video-frx5-1.xx.fbcdn.net/v/t42.15408-2/25195988_1605162032864749_3650437896239841280_n.mp4?efg=eyJybHIiOjYzMCwicmxhIjo1MTIsInZlbmNvZGVfdGFnIjoic2QifQ%3D%3D&rl=630&vabr=350&oh=3a78a6f43f88ba8a2976bc81922a0dfe&oe=5A2C4490" alt="Video"> </iframe>
         </div>
+
         <!-- Media section end -->
         
         <!-- Form section start -->
@@ -172,6 +248,10 @@
                 <input type="submit" value="SEND" class="submit" />
             </form>
         </div>
+
+        <iframe src="https://www.w3schools.com">
+  			<p>Your browser does not support iframes.</p>	
+		</iframe>
         <!-- Form section end -->
         
         <!-- Contacts section start -->
@@ -179,7 +259,7 @@
             <h1><span>Click hier to visit my Social media</span></h1>
             <div>
                 <a href="https://plus.google.com/+RaviRahulKumarShah"  target="_blank" >
-                    <img alt="Google Plus" src="https://www.seeklogo.net/wp-content/uploads/2015/09/google-plus-new-icon-logo-400x400.png" height = 130 width = 130 /> click me
+                    <img alt="Google Plus" src="https://www.seeklogo.net/wp-content/uploads/2015/09/google-plus-new-icon-logo-400x400.png" height = 130 width = 130 />
                 </a>
                 <a href="https://www.facebook.com/rrks43">
                     <img alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png"/>
