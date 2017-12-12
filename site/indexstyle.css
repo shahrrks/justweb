@@ -1,0 +1,63 @@
+body{
+    background-image: url("http://bgfons.com/uploads/lines/lines_texture1100.jpg");
+
+}
+@font-face {
+            font-family: myFirstFont;
+            src: url(sansation_light.woff);
+        }
+
+            h2,h1:hover {
+                width:1000px;
+            }
+
+            
+            table,ul,p{
+                color:white;
+                font-size: 18px;
+                font-family: Comic Sans MS;
+            }
+
+table,ul,p:hover{
+                color:yellow;
+                font-size: 30px;
+                font-family: Helvetica;
+                padding: 60px;
+            }
+            h1{
+                color:Yellow;
+                font-size: 36px;
+                text-align:left;
+                font-family:Pacifico;
+                background: green;
+                text-decoration: overline;
+                letter-spacing: 4px;
+                font-variant: large;
+                text-shadow: 2px 2px blue;
+                width : 300px;
+                height: 100px;
+                transition: width 5s;
+            }
+
+            h2{
+                color:yellow;
+                font-size: 20px;
+                font-family:Pacifico ;
+                background: green;
+                letter-spacing: 2px;
+                text-shadow: 2px 2px blue;
+                width : 300px;
+                height: 50px;
+                transition: width 5s;
+            }
+            img.pic {
+                border-radius: 50%;
+                display:block;
+                width:35%;
+
+
+            }
+            img.pic:hover {
+                    border: 8px solid #000;
+            }
+
