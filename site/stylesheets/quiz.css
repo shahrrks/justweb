@@ -1,0 +1,43 @@
+.ab{
+	border-style:dotted;
+	border-color:#673ab7;
+	background-color: cyan; 
+	border-radius: 8px; 
+	padding-left:10px;
+	margin:auto;
+}
+.option{
+	list-style-type: lower-alpha;
+	padding: 8px 40px;
+
+
+}
+{
+	margin-right : 100px;
+	position: relative;
+    left: 50%;
+    top: -86px;
+}
+
+button{
+	background-color:white;
+	border: 2px solid blue;
+	border-radius: 2px; 
+	padding: 8px 12px; 
+	margin: 4px 2px;
+	cursor: pointer;
+	text-align: center;
+	transition-duration: 0.5s;
+	width:150px;
+}
+
+button:hover{
+	background-color:blue;
+	color:white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19) ;
+}
+
+
+ul{
+	list-style-type: upper-roman; 
+}
